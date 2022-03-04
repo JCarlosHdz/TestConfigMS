@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /MSP
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/online_store
+    username: root
+    password: m79erXrA
