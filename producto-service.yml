@@ -1,7 +1,7 @@
 server:
   port: 8085
-  servlet:
-    context-path: /MSP
+#  servlet:
+#    context-path: /MSP
 
 spring:
   jpa:
