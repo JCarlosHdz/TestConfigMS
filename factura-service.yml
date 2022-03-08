@@ -25,5 +25,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: hystrix.stream
+      base-path: /
         
