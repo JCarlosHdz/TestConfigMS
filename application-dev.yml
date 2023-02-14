@@ -1,2 +1,10 @@
-application:
-  name: config-server-test
+spring:
+  application:
+    name: application-name-dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
